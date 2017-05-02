@@ -1,0 +1,226 @@
+body {
+	width: 960px;
+	margin: auto;
+	font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+	color: #777777;
+}
+
+/*****header styling*****/
+header {
+	background-color: #ffffff;
+	height: 70px;
+	border-bottom: 2px solid #cccccc;
+}
+
+
+.name { 
+	background-color: #4aaaa5;
+    width: 200px;
+    height: 30px;
+    margin-left: 40px;
+    padding: 20px;
+    text-align: center;
+    color: #ffffff;
+    font-weight: bolder;
+    font-size: 30px;
+    font-family: 'Georgia', Times, Times New Roman, serif;
+    float: left;
+}   
+
+/*****Navigation bar styling*****/
+.navigation {
+	float: right;
+	padding: 20px
+}
+
+nav ul li {
+	display: inline-block;
+	padding: 10px;
+}
+
+.navigation a {
+	text-decoration: none;
+	color: #777777;
+}
+
+/****Main Section styling*****/
+main {
+	background: url(../images/fresh_snow.png);
+	background-size: cover;
+	height: 850px;
+	border-bottom: 7px solid #4aaaa5;
+}
+
+
+/*****About Me section styling on index.html*****/
+.about {
+	background-color: #ffffff;
+	width: 550px;
+	margin: 50px 20px 10px 40px;
+	padding: 20px;
+	float: left;
+}
+
+.about h1 {
+	font-size: 25px;
+	font-weight: bold;
+	font-family: 'Georgia', Times, Times New Roman, serif;
+	color: #4aaaa5;
+	margin-bottom: 10px;
+	padding-bottom: 10px;
+	border-bottom: 2px solid #cccccc;
+}
+
+.about img {
+	float: left;
+	margin-right: 10px;
+	padding: 10px;
+}
+
+.about p {
+	line-height: 25px;
+	padding: 10px;
+}
+
+
+/*****Portfolio Page table styling*****/
+
+.wrapper {
+	background-color: #ffffff;
+	width: 550;
+	margin: 50px 20px 0px 40px;
+	padding: 20px 20px 0px 20px;
+	float: left;
+}
+
+.Portfolio h3 {
+	font-size: 25px;
+	font-weight: bold;
+	font-family: 'Georgia', Times, Times New Roman, serif;
+	color: #4aaaa5;
+	margin-bottom: 10px;
+	padding-bottom: 10px;
+	border-bottom: 2px solid #cccccc;
+}
+
+table {
+	border-collapse: separate;
+	border-spacing: 20px;
+}
+
+tr, td {
+	width:250px;
+	height: 200px;
+}
+
+
+td#hangman {
+	background-image: url(../images/hangman-pic.jpg);
+	background-repeat: no-repeat;
+	background-size: 250px 200px;
+}
+
+td#RPG {
+	background-image: url(../images/rpg-game-pic.jpg);
+	background-repeat: no-repeat;
+	background-size: 250px 200px;
+}
+
+td#trivia {
+	background-image: url(../images/trivia-game-pic.jpg);
+	background-repeat: no-repeat;
+	background-size: 250px 200px;
+}
+
+td#rutgers {
+	background-image: url(../images/rutgers-info-pic.jpg);
+	background-repeat: no-repeat;
+	background-size: 250px 200px;
+}
+
+td#rock {
+	background-image: url(../images/rockpaperscissors-pic.jpg);
+	background-repeat: no-repeat;
+	background-size: 250px 200px;
+}
+
+.projectType {
+	background-color: #4aaaa5;
+	color: #ffffff;
+	font-size: 20px;
+	font-family: 'Georgia', Times, Times New Roman, serif;
+	text-align: center;
+	margin: 130px 0px 20px 0px;
+	padding: 15px;
+}
+
+/*****Contact Page Form Styling*****/
+.contactForm h3 {
+	font-size: 25px;
+	font-weight: bold;
+	font-family: 'Georgia', Times, Times New Roman, serif;
+	color: #4aaaa5;
+	margin-bottom: 10px;
+	padding-bottom: 10px;
+	border-bottom: 2px solid #cccccc;
+}
+
+.contactForm {
+	width: 550px;
+	margin: 50px 20px 10px 40px;
+	padding: 20px;
+	float: left;
+	background-color: #ffffff;
+	line-height: 30px;
+}
+
+input {
+	width: 100%
+}
+
+.submitbutton {
+	background-color: #4aaaa5;
+	color: #ffffff;
+	padding: 10px 20px 10px 20px;
+	font-size: 16px;
+	width: inherit;
+}
+
+/*****Social Contact Styling*****/
+aside {
+	float: right;
+	width: 210px;
+	margin: 50px 50px 10px 10px;
+	padding: 20px;
+	background-color: #ffffff;
+}
+
+aside h3 {
+	font-size: 20px;
+	font-weight: bold;
+	font-family: 'Georgia', Times, Times New Roman, serif;
+	color: #4aaaa5;
+	border-bottom: 2px solid #cccccc;
+	margin-bottom: 10px;
+	padding-bottom: 10px;
+}
+
+aside ul {
+	padding: 10px
+}
+
+aside ul li {
+	display: inline-block;
+	padding: 0 12px 0 12px;
+}
+
+/*****footer styling*****/
+footer {
+	clear: both;
+	background-color: #666666;
+	font-size: 12px;
+	color: #cccccc;
+	text-align: center;
+	height: inherit;
+	padding: 30px;
+}
